@@ -65,7 +65,7 @@
 }
 .data 
 {
-    background: url(/Web-Dev/images/laptop-image.jpeg);
+    background: url(/images/laptop-image.jpeg);
     max-width: 300px;
     min-height: 250px;
     padding: 30px;
