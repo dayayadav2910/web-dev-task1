@@ -18,12 +18,12 @@
   line-height: 80px;
   color: white;
 }
-/* .data {
-  background: url(/Web-Dev/images/laptop-image.jpeg);
+.data {
+  background: url(/images/laptop-image.jpeg);
   height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .side-bar {
   position: fixed;
   background: linear-gradient(to bottom right, #333399 19%, #ff99ff 100%);
@@ -63,18 +63,7 @@
 #menu {
   display: none;
 }
-.data 
-{
-    background: url(/images/laptop-image.jpeg);
-    max-width: 300px;
-    min-height: 250px;
-    padding: 30px;
-    box-sizing: border-box;
-    color: #fff;
-    margin: 20px;
-    font-size:20px ;
-    box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.75);
-  }
+
 .box {
   padding: 0;
   margin: 0;
@@ -84,8 +73,8 @@
   border: 1px solid black;
 }
 @media (max-width: 850px) {
-    .data{
+    /* .data{
         width: 100%;
         height: auto;
-    }
+    } */
 }
