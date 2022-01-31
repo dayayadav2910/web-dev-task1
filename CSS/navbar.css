@@ -4,16 +4,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+
 }
 .nav {
   height: 50px;
   width: 100%;
   background-color: red;
-  background: linear-gradient(to bottom right, #333399 19%, #ff99ff 100%);
+  /* background: linear-gradient(to top left, #ffcc66 0%, #000066 100%); */
+  background: linear-gradient(to top left, #ffcc66 0%, #ff99ff 100%);
   position: relative;
 }
 .nav-title {
   margin-left: 2em;
+  color: blue;
+
+
 }
 .nav > .nav-header {
   display: inline;
@@ -21,7 +26,7 @@
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color:blue;
   padding: 10px 10px 10px 10px;
 }
 .nav > .nav-btn {
@@ -36,7 +41,7 @@
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: blue;
 }
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
