@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Source+Serif+4:ital,wght@1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
+}
+.First-div h1 {
+  background: linear-gradient(to bottom right, #333399 19%, #ff99ff 100%);
+  text-decoration: underline;
+  padding-left: 30px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  line-height: 80px;
+  color: white;
+}
+/* .data {
+  background: url(/Web-Dev/images/laptop-image.jpeg);
+  height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.side-bar {
+  position: fixed;
+  background: linear-gradient(to bottom right, #333399 19%, #ff99ff 100%);
+  width: 250px;
+  height: 100%;
+}
+.side-bar center img {
+  margin-top: 30px;
+  height: 175px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.side-bar center h2 {
+  color: white;
+}
+.side-bar a {
+  padding-left: 10px;
+  display: block;
+  line-height: 60px;
+  transition: 0.5s;
+}
+.side-bar a:hover {
+  background: linear-gradient(to bottom right, #333399 19%, #ff99ff 100%);
+  padding-left: 20px;
+}
+.side-bar span {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+.side-bar i {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+#menu {
+  display: none;
+}
+.data 
+{
+    background: url(/Web-Dev/images/laptop-image.jpeg);
+    max-width: 300px;
+    min-height: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 20px;
+    font-size:20px ;
+    box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.75);
+  }
+.box {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2;
+  padding: 20px;
+  border: 1px solid black;
+}
+@media (max-width: 850px) {
+    .data{
+        width: 100%;
+        height: auto;
+    }
+}
